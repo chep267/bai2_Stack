@@ -4,10 +4,12 @@ package dongcode.stack;
 
 public class Stack {
 
-    Node top = null;
-    int size = 0;
+    Node top;
+    int size;
 
     public Stack() {
+        top = null;
+        int size = 0;
     }
 
     //Xem ptu tren cung:
